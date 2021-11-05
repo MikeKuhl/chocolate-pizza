@@ -21,23 +21,28 @@
 
 body
 {
-height: 125vh;
+height: 135vh;
 margin-top: 80px;
 padding: 30px;
 background-size: cover;
 font-family: sans-serif;
-background-color: rgb(230, 217, 217);
+background-color: rgb(216, 177, 177);
+border: solid rgb(0, 0, 0);
+border-width: thin black 10px;
+box-sizing: border-box;
+width: 100vh;
+
 }
 header {
-background-color: ;
-position: fixed;
+/* position: fixed; */
 left: 0;
 right: 0;
 top: 5px;
 height: 30px;
+width: 410px;
 display: flex;
 align-items: center;
-box-shadow: 0 0 5px 0 black;
+
 
 }
 #logo {
@@ -88,9 +93,10 @@ header nav {
     float:right;
     /* margin-left: 500px; */
     margin-bottom: 1000px;
-    left: 550px;
-    top: 1100px;
-    max-width: 400px;
+    left: 90px;
+    top: 1200px;
+    max-width: 720px;
+    z-index: 1;
 }
 
 #action-button {
@@ -155,7 +161,38 @@ top: -400px;
 
 #nameLogo {
     position: absolute;
-    left: -37px;
-    top: 18px;
+    left: -5px;
+    top: 12px;
     width: 30%;
+}
+#paragraph {
+    position: absolute;
+    left: 40px;
+    top: 844px;
+    width: 55%;
+}
+
+#notepad {
+    position: absolute;
+    left: 25px;
+    top: 1151px;
+    width: 65%;
+}
+#divider{
+    background-image: url(media/hr-img.png);
+    background-repeat: repeat repeat;
+}
+
+#footer {
+    position: absolute;
+    left: 17px;
+    top: 1550px;
+    width: 65%;
+}
+
+#headShot {
+    position: absolute;
+    left: 137px;
+    top: 1537px;
+
 }
