@@ -100,9 +100,9 @@ header nav {
 }
 
 #action-button {
-    padding: 15px 100px;
-    margin: 10px 4px;
-    color: #3d405b;
+    padding: 20px 103px;
+    margin: 652px 824px;
+    color: red;
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -110,6 +110,7 @@ header nav {
     text-decoration: none;
     display: inline-block;
     border: 1px solid;
+    background-color: white;
   }
   #action-button::before {
     content: "";
